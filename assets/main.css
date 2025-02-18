@@ -19,5 +19,10 @@ body {
 .dropdown-content {
     display: none;
     padding: 10px;
-    background: #fff;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.dropdown-content.active {
+    display: block;
 }
