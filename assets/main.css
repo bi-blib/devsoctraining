@@ -106,6 +106,16 @@ body {
     box-sizing: border-box;
 }
 
+.icons-container h3{
+    color: #c20e24;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    margin-left:10px;
+    animation-name: introText;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
 @keyframes introText{
     0% {color: #c20e24;}
     50% {color:#2e918a;}
@@ -114,7 +124,7 @@ body {
 
 /* icons */
 .icons-container ul{
-    margin-left:15%;
+    margin-left:4%;
     padding:0;
     list-style: none;
 }
