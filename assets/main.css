@@ -27,7 +27,7 @@ body {
     display: none;
     padding: 10px;
     border: 1px solid #ccc;
-    background-color: #befbc4b1;
+    background-color: #c9f0cdb1;
 }
 
 .dropdown-content.active {
@@ -95,7 +95,7 @@ body {
 .icons-container{
     margin-top:10px;
     float:left;
-    width:40%;
+    width:80%;
 }
 
 .icons-container ul {
