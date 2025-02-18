@@ -4,8 +4,11 @@ body {
 }
 
 #globe {
-    width: 200px; /* Adjust as needed */
-    float: center;
+    width: 150px; /* Adjust as needed */
+    padding-left: 35%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 100%;
     height: auto;
 }
 
@@ -17,7 +20,8 @@ body {
 }
 
 .dropdown-title {
-    background: #c9f0cdb1;
+    background: #30948c;
+    color: #ccc;
     padding: 10px;
     cursor: pointer;
     font-weight: bold;
@@ -93,7 +97,8 @@ body {
 
 /* Lower main */
 .icons-container{
-    margin-top:10px;
+    margin-top:15px;
+    margin-left: 15%;
     float:center;
     width:80%;
 }
