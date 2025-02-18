@@ -38,10 +38,11 @@ body {
 }
 
 .body-container{
-    width:100%;
+    width:80%;
     margin:auto;
     box-sizing: border-box;
     padding-bottom: 20%;
+    background-color: lightblue !important;
 }
 
 /* top bar */
@@ -72,27 +73,24 @@ body {
 .icons-container{
     margin-top:10px;
     float:left;
-    margin-left:0%;
     width:40%;
-    box-sizing: border-box;
 }
 
-@keyframes introText{
-    0% {color: #c20e24;}
-    50% {color:whitesmoke;}
-    100% {color: #c20e24;}
-}
-
-/* icons */
 .icons-container ul {
-    display: flex; /* Make the icons appear in a row */
-    justify-content: center; /* Center icons */
-    align-items: center; /* Align them vertically */
-    gap: 15px; /* Space between icons */
+    display: flex;
+    flex-wrap: nowrap; /* Keeps all icons in one row */
+    justify-content: center; /* Centers icons */
+    align-items: center; /* Aligns them vertically */
+    gap: 15px; /* Adds space between icons */
     padding: 0;
     list-style: none;
 }
 
+.icons-container li {
+    margin: 0;
+    padding: 0;
+    display: inline-block; /* Ensures list items are in a row */
+}
 .icons-container img{
     width:30%;
     height:30%;
