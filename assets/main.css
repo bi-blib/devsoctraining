@@ -38,11 +38,10 @@ body {
 }
 
 .body-container{
-    width:70%;
+    width:100%;
     margin:auto;
     box-sizing: border-box;
     padding-bottom: 20%;
-    background-color: lightblue !important;
 }
 
 /* top bar */
@@ -73,19 +72,9 @@ body {
 .icons-container{
     margin-top:10px;
     float:left;
-    margin-left:4%;
-    width:15%;
+    margin-left:0%;
+    width:40%;
     box-sizing: border-box;
-}
-
-.icons-container h3{
-    color: #c20e24;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 12px;
-    margin-left:2px;
-    animation-name: introText;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
 }
 
 @keyframes introText{
@@ -95,15 +84,13 @@ body {
 }
 
 /* icons */
-.icons-container ul{
-    margin-left:4%;
-    padding:0;
+.icons-container ul {
+    display: flex; /* Make the icons appear in a row */
+    justify-content: center; /* Center icons */
+    align-items: center; /* Align them vertically */
+    gap: 15px; /* Space between icons */
+    padding: 0;
     list-style: none;
-}
-
-.icons-container li{
-    padding-bottom:5%;
-    padding-left:5%;
 }
 
 .icons-container img{
