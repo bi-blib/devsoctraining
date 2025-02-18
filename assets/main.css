@@ -28,13 +28,6 @@ body {
     display: block;
 }
 
-.heading{
-    margin:20px;
-    line-height: 1.5em;
-    font-size: 24px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
-}
 
 
 .transparent-box{
@@ -58,7 +51,21 @@ body {
 .flags {
     background-color: white;
     width: 100%;
+    display: flex;
+    align-items: center; /* Align items vertically */
+    gap: 10px; /* Space between text and flags */
 }
+
+
+.flags h2 {
+    margin:20px;
+    line-height: 1.5em;
+    font-size: 24px;
+    white-space: nowrap; /* Prevents text from wrapping */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
 #bosnia{
     float: right;
     height:10%;
