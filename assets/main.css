@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: white !important;
+    background-color: lightblue !important;
 }
 
 .dropdown {
@@ -101,19 +101,9 @@ body {
 .icons-container{
     margin-top:10px;
     float:left;
-    margin-left:15%;
+    margin-left:4%;
     width:15%;
     box-sizing: border-box;
-}
-
-.icons-container h3{
-    color: #c20e24;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 12px;
-    margin-left:10px;
-    animation-name: introText;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
 }
 
 @keyframes introText{
