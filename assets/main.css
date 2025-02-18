@@ -3,6 +3,12 @@ body {
     background-color: lightblue !important;
 }
 
+#globe {
+    width: 200px; /* Adjust as needed */
+    float: none;
+    height: auto;
+}
+
 .dropdown {
     margin-bottom: 10px;
     border: 1px solid #ccc;
