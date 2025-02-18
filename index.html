@@ -1,17 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-  </head>
-  <body>
-    <main>
-        <h1>Welcome to My Website</h1>  
-    </main>
-    <script src="index.js"></script>
-  </body>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" />
+<html lang="en" >
+    <head>
+        <title>Bianca's Profile</title>
+        <link rel="icon" href="assets/clear_globe.jpeg">
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <div class="transparent-box"> 
+            <!-- UI bar -->
+            <div class="clr"></div>
+
+            <!-- main body -->
+            <section class="body-container">
+
+                <!-- top section -->
+                <img id="bosnia" src="assets/bosnia_flag.png" alt="bosnia">
+                <div class="clr"></div>
+
+                <!-- bottom section -->
+                <div class="icons-container">
+                    <h3> ● cole | '03 | istp-t ● </h3>
+                    <ul>
+                        <li><a href="https://www.instagram.com/oya.nicole/" rel='noopener' target="_blank">
+                            <img src="assets/ig.png" alt="instagram">
+                            <img src="assets/ig_hover.png" alt="instagram-hover">
+                        </a></li>
+                        <li><a href="https://www.linkedin.com/in/bianca-mori-zegarra-b213a5299/" rel='noopener' target="_blank">
+                            <img class="og" src="assets/linkedin.png" alt="linkedin">
+                            <img class="hov" src="assets/linkedin_hover.png" alt="linkedin-hover">
+                        </a></li>
+                        <li><a href="mailto:bianca.moriz@icloud.com" target="_blank">
+                            <img class="og" src="assets/mail.png" alt="mail">
+                            <img class="hov" src="assets/mail_hover.png" alt="mail-hover">
+                        </a></li>
+                        <li><a href="https://github.com/bi-blib" rel='noopener' target="_blank">
+                            <img class="og" src="assets/git.png" alt="git">
+                            <img class="hov" src="assets/git_hover.png" alt="git-hover">
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="clr"></div>
+            <body>
+            
+                <div class="dropdown">
+                    <div class="dropdown-title" onclick="toggleContent(1)">Introduction</div>
+                    <div class="dropdown-content" id="content-1">
+                        Hi! I'm Bianca, a 2nd year compsci student who loves puzzles, watching (and playing) football and dogs! I also love to fix things, and am constantly tinkering with something...
+                       A fun fact is that I was fortunate enough to study in Bosnia and Herzegovina for my last 2 years of high school (boarding school). 
+                       I have very little artistic skills, but thankfully (for employment purposes only) I'm not half as bad at STEM :) 
+
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <div class="dropdown-title" onclick="toggleContent(4)">Course Progression</div>
+                    <div class="dropdown-content" id="content-4">
+                        COMP1511<br>COMP1521<br>COMP1531<br>COMP2521<br>COMP6841<br>and a lot of nasty maths
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <div class="dropdown-title" onclick="toggleContent(4)">Places travelled</div>
+                    <div class="dropdown-content" id="content-4">
+                       Peru<br>Bosnia and Herzegovina<br>Croatia<br>United Kingdom<br>Austria<br>Slovenia<br>Italy<br>France<br>Kosovo<br>Greece<br>Cyprus<br>Switzerland<br>United States
+                    </div>
+                </div>
+            
+                <div class="dropdown">
+                    <div class="dropdown-title" onclick="toggleContent(5)">My experience</div>
+                    <div class="dropdown-content" id="content-5">
+                        I have had experience building full stack programs through my COMP1531 course, alongside a team 
+                        of 5, we were tasked with building an invoicing company which you can view 
+                        <a href="https://1531-24t3-w11b-boost.vercel.app"><b><u>here</u></b></a>. I learnt a lot from this course
+                        but the reason why I want to join the DevSoc program is because most of the content
+                        I learnt is self-taught, I am afraid that I may have missed out on some crucial introductory
+                        content. I would also love to work in a team environment again and work together to create an amazing website!
+                    </div>
+                </div>
+            
+                <div class="dropdown">
+                    <div class="dropdown-title" onclick="toggleContent(6)">Places I want to visit</div>
+                    <div class="dropdown-content" id="content-6">
+                        Brazil<br>Argentina<br>Netherlands<br>Germany<br>Singapore<br>Japan<br>Syria<br>Albania<br>New Zealand
+                    </div>
+                </div>
+            </section>
+        </div> 
+    </body>
+
 </html>
