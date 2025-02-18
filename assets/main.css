@@ -63,7 +63,6 @@ body {
     float: right;
     height:10%;
     width:17%;
-    padding-left:5%;
 }
 
 #peru{
@@ -74,7 +73,6 @@ body {
 
 /* Upper main */
 #aus{
-    border-radius: 50% 50%;
     height:15%;
     width:15%;
     float:right;
