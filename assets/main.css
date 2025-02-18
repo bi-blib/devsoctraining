@@ -161,7 +161,7 @@ body {
     height:45%;
     border-top: 2px #820910 dotted;
     border-bottom: 2px #820910 dotted;
-    background-color: #0f2929b1;
+    background-color: lightblue;
 }
 
 .textbox p{
@@ -186,7 +186,7 @@ body {
     padding:0;
     list-style: none;
     padding-top:3%;
-    margin-left:20%;
+    margin-left:5%;
     padding-bottom:2%;
 }
 
@@ -208,18 +208,3 @@ body {
     animation-iteration-count: infinite;
 }
 
-#navbar li:first-child a{
-    color:#2e918a;
-}
-
-#navbar li:nth-child(2) a{
-    color:#c20e24;
-}
-
-#navbar li:nth-child(3) a{
-    color:#c20e24;
-}
-
-#navbar li:nth-child(4) a{
-    color:#c20e24;
-}
