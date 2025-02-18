@@ -4,7 +4,7 @@ body {
 }
 
 #globe {
-    width: 150px; /* Adjust as needed */
+    width: 150px;
     padding-left: 35%;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -21,7 +21,7 @@ body {
 
 .dropdown-title {
     background: #30948c;
-    color: #ccc;
+    color: white;
     padding: 10px;
     cursor: pointer;
     font-weight: bold;
@@ -62,8 +62,8 @@ body {
     background-color: white;
     width: 100%;
     display: flex;
-    align-items: center; /* Align items vertically */
-    gap: 10px; /* Space between text and flags */
+    align-items: center; 
+    gap: 10px; 
 }
 
 
@@ -71,7 +71,7 @@ body {
     margin:20px;
     line-height: 1.5em;
     font-size: 24px;
-    white-space: nowrap; /* Prevents text from wrapping */
+    white-space: nowrap; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
 }
@@ -105,10 +105,10 @@ body {
 
 .icons-container ul {
     display: flex;
-    flex-wrap: nowrap; /* Keeps all icons in one row */
-    justify-content: center; /* Centers icons */
-    align-items: center; /* Aligns them vertically */
-    gap: 15px; /* Adds space between icons */
+    flex-wrap: nowrap; 
+    justify-content: center;
+    align-items: center; 
+    gap: 15px; 
     padding: 0;
     list-style: none;
 }
@@ -116,7 +116,7 @@ body {
 .icons-container li {
     margin: 0;
     padding: 0;
-    display: inline-block; /* Ensures list items are in a row */
+    display: inline-block; 
 }
 .icons-container img{
     width:30%;
